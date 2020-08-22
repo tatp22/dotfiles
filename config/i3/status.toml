@@ -2,6 +2,12 @@ theme = "solarized-dark"
 icons = "awesome"
 
 [[block]]
+block = "music"
+buttons = ["play"]
+marquee_speed = 1
+max_width = 30
+
+[[block]]
 block = "memory"
 display_type = "memory"
 format_mem = "{Mug}Gb ({Mupi}%)"
@@ -20,15 +26,6 @@ graph_up = false
 
 [[block]]
 block = "sound"
-
-[[block]]
-block = "pacman"
-
-[[block]]
-block = "temperature"
-interval = 10
-format = "{average}°C"
-collapsed = false
 
 [[block]]
 block = "weather"
